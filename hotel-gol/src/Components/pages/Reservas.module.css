@@ -1,0 +1,251 @@
+
+
+.Contenedor-Nav{
+    
+    display: flex;
+    justify-content: space-around;
+   
+    
+     
+ }
+ .Enlaces-Nav{
+     
+     margin-right: 20px;
+     display: flex;
+     justify-content: flex-end;
+     
+ }
+ .logotipo{
+     padding: 30px;
+     padding-left: 65px;
+     padding-right: 65px;
+     border-bottom-left-radius: 30px;
+     border-bottom-right-radius: 30px;
+ }
+ .logotipo p {
+     margin: 0;
+ }
+ .Titulo-gol{
+     color: #14274A;
+     font-weight: 700;
+     font-size: 30px;
+     margin: 0;
+     padding: 0;
+ }
+ .Titulo-Header{
+     color: white;
+     text-align: center;
+     background-color:#14274a ;
+     width: 98%;
+     font-size: 80px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 700;
+     padding-top: 50px;
+ }
+ 
+ .Titulo-hoteles{
+     margin: 0;
+     padding: 0;
+     color: #14274A;
+     font-weight: 500;
+     font-size: 16px;
+ }
+ 
+ 
+ .Contenedor-Nav .navElement { 
+     margin-top : 50px;
+     margin-left: 20px;
+     margin-right: 20px;
+     text-decoration: none;
+     color: #FFFFFF;
+     font-size: 20px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 900;
+     
+     
+ }
+ 
+ .headerHabitaciones {
+     
+    background-color: #14274A;/* Ruta a tu imagen de fondo */
+     background-size: cover;
+     height: 400px; /* Establece la altura del encabezado según tus necesidades */
+     overflow: hidden;
+ }
+ 
+ 
+ .logotipo{
+     background-color: #E0B973;
+     font-family: 'Noticia Text', serif;
+ }
+ 
+
+ .contenedor-reserva{
+    background-color: #E0B973;
+ }
+ .header-reserva{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 1300px;
+   
+ }
+ .header-horario{
+    display: flex;
+    border-right: 1px solid   #14274A;
+    border-width: 3px;
+    padding-right: 100px;
+
+   
+
+ }
+ .header-horario div{
+    margin-right: 25px;
+ }
+ .header-botones{
+    display: flex;
+ }
+ .label-header{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Noticia Text', serif;
+    color: #14274A;
+    margin: 10px 0;
+ }
+ .label-secundario {
+    color: #14274A;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Noticia Text', serif;
+ }
+ .header-habitaciones{
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    border-right: 1px #14274A solid;
+    border-width: 3px;
+    padding-right: 100px;
+    width: 250px;
+
+ }
+ .btn-adicionales{
+    font-weight: 700;
+    padding: 0px 10px;
+    margin: auto 0;
+    background-color: #14274A;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 10px;
+ }
+
+ .btn-registrar{
+    width: 140px;
+    font-weight: 700;
+    padding: 0px 10px;
+    margin: auto 0;
+    height: 50px;
+    background-color: #23B100;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+
+ }
+
+ .seccion-habitaciones{
+    margin-top: 60px;
+ }
+
+ .detalles-habitacion{
+    display: flex;
+ }
+ .card {
+
+
+    margin: 20px auto;
+    width: 1400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #585858; /* Sombras */
+    background-color: #EFEFEF;
+    transition: box-shadow 0.3s ease; /* Agregamos una transición suave al cambiar la sombra */
+  }
+  .nombre-cama{
+    font-family: 'Noticia Text', serif;
+    color: #14274A;
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .tarifa {
+    width: 100%;
+    display: flex;
+    border-top: 1px #909090 solid;
+    border-width: 2px;
+    height: 120px;
+    padding-left: 40px;
+
+  }
+  .contenedor-tarifa{
+    width: 470px;
+    margin: auto 0;
+
+  }
+  .label-tarifa{
+    font-family: 'Montserrat', sans-serif;
+    color: #14274A;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .tarifa-especial{
+    color: #23B100;
+  }
+  .contenedor-precio{
+    width: 200px;
+    text-align: center;
+    margin: auto 0;
+    margin-right: 50px;
+  }
+  .contenedor-precio span {
+    color: #14274A;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 0 5px;
+  }
+
+.CardRooms-article{
+   display: flex;
+   align-items: center;
+   gap: 4px;
+}
+
+.CardRooms-flex{
+   display: flex;
+   flex-direction: column;
+}
+
+.CardRooms-RoomImage{
+   width: 40px;
+   height: 40px;
+   border-radius: 10px;
+}
+
+.CardRooms-button{
+   margin-left: 20px;
+   border: 0;
+   border-radius: 500px;
+   padding: 6px 16px;
+   font-weight: bold;
+}
+
+.Calendar-style{
+   width: 140px; /* Ajusta el ancho según tus necesidades */
+   height: 30px; /* Ajusta la altura según tus necesidades */
+   font-size: 18px;
+}

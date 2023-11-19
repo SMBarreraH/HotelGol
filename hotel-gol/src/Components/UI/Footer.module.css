@@ -1,0 +1,100 @@
+footer{
+    background-image: url('../../assets/img/Footer.png');
+    background-size: cover;
+    background-position-x: center;
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-self: end;
+    margin-bottom: 30px;
+
+}
+.contacto strong{
+    margin-bottom: 15px;
+}
+
+
+.contacto p{
+    margin: 0;
+}
+
+.footer-informacion{
+    align-self: end;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+    
+}
+.footer-informacion p {
+    margin: 8px 0;
+}
+
+
+.redes-sociales{
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    margin-bottom: 15px;
+}
+.redes-sociales p {
+    margin: 10px 0;
+    text-align: start;
+    align-self: center;
+}
+.enlace{
+    display: flex;
+    flex-direction: row;
+    
+}
+.enlace img{
+    align-self: center;
+    object-fit: contain;
+    margin-right: 50px;
+    height: 20px;
+    width: 20px;
+}
+.footer-suscribete{
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    margin-bottom: 40px;
+}
+.formulario-suscribete{
+    display: flex;
+
+}
+.formulario-suscribete input{
+    background-color:  hsl(219, 57%, 18%);
+    border: 2px #E0B973 solid;
+    height: 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    
+}
+
+.btn-ok{
+    background-color: #E0B973;
+    color: #14274A;
+    font-weight: 700;
+    height: 44px;
+    margin: 0;
+    padding: 0 15px;    
+    align-self: center;
+}
+.formulario-suscribete input::placeholder{
+    color: white;
+}

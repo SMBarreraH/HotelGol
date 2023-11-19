@@ -1,0 +1,24 @@
+.CardRooms-article{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.CardRooms-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.CardRooms-RoomImage{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.CardRooms-button{
+    margin-left: 20px;
+    border: 0;
+    border-radius: 500px;
+    padding: 6px 16px;
+    font-weight: bold;
+}

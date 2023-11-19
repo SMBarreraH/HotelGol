@@ -1,0 +1,196 @@
+
+
+.Contenedor-Nav{
+    
+    display: flex;
+    justify-content: space-around;
+   
+    
+     
+ }
+ .Enlaces-Nav{
+     
+     margin-right: 20px;
+     display: flex;
+     justify-content: flex-end;
+     
+ }
+ .logotipo{
+     padding: 30px;
+     padding-left: 65px;
+     padding-right: 65px;
+     border-bottom-left-radius: 30px;
+     border-bottom-right-radius: 30px;
+ }
+ .logotipo p {
+     margin: 0;
+ }
+ .Titulo-gol{
+     color: #14274A;
+     font-weight: 700;
+     font-size: 30px;
+     margin: 0;
+     padding: 0;
+ }
+ .Titulo-Header{
+     color: white;
+     text-align: center;
+     background-color:#14274a ;
+     width: 98%;
+     font-size: 80px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 700;
+     padding-top: 50px;
+ }
+ 
+ .Titulo-hoteles{
+     margin: 0;
+     padding: 0;
+     color: #14274A;
+     font-weight: 500;
+     font-size: 16px;
+ }
+ 
+ 
+ .Contenedor-Nav .navElement { 
+     margin-top : 50px;
+     margin-left: 20px;
+     margin-right: 20px;
+     text-decoration: none;
+     color: #FFFFFF;
+     font-size: 20px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 900;
+     
+     
+ }
+ 
+ .headerHabitaciones {
+     
+    background-color: #14274A;/* Ruta a tu imagen de fondo */
+     background-size: cover;
+     height: 400px; /* Establece la altura del encabezado según tus necesidades */
+     overflow: hidden;
+     margin-bottom: 100px;
+ }
+ 
+ 
+ .logotipo{
+     background-color: #E0B973;
+     font-family: 'Noticia Text', serif;
+ }
+ .seccion-habitaciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+
+ }
+ .numeros-habitaciones {
+    
+    
+    width: 80px;
+    height: 700px;
+ }
+ .numeros-habitaciones p {
+    margin-top: 90px;
+    margin-bottom:90px;
+    color: #14274A;
+    font-size: 40px;
+    text-align: center;
+
+ }
+
+ .Contenedor-Habitaciones{
+    
+    display: flex;
+    flex-direction: column;
+    width: 1050px;
+    height: 700px;
+    background-color: #E0B973;
+ 
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ .Habitacion-fila{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 1000px;
+    height: 140px;
+ }
+.Habitacion-fila div {
+    margin: 0 10px;
+    background-color: #33FF00;
+    height: 100px;
+    width: 120px;
+}
+.Formulario-Habitaciones{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+.Formulario-datos{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: #14274A;
+}
+.Formulario-datos input{
+    width: 300px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+.Formulario-observacion{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.Formulario-observacion textarea{
+    height: 200px;
+    width: 400px;
+}
+
+.btn-enviar{
+    display: flex;
+    justify-content: end;
+}
+.btn-enviar p {
+    text-align: center;
+    width: 100px;
+    background-color: #E0B973;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    height: 40px;
+    color: white; /* Añade este estilo para que el número sea visible en el cuadro */
+  }
+  
+  .Habitacion-fila {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .Habitacion-cuadro {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+  }
